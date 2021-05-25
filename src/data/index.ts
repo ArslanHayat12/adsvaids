@@ -6,9 +6,9 @@ const shoes = require('../../public/shoes/shoes.jpg');
 const household = require('../../public/household/household.jpg');
 const kitchen = require('../../public/kitchen/kitchen.jpg');
 const luggage = require('../../public/luggage/luggage.jpg');
-const phones = require('../../public/phones_access/phones_access');
+const phones = require('../../public/phones_access/phones_access.jpg');
 const health = require('../../public/health/health.jpg');
-const office_products = require('../../public/office-products/office_products');
+const office_products = require('../../public/office-products/office_products.jpg');
 const musical_inst = require('../../public/musical_inst/musical_inst.jpg');
 const grocery = require('../../public/grocery/grocery.jpg');
 const handmade = require('../../public/handmade/handmade.jpg');
@@ -23,7 +23,6 @@ const sports = require('../../public/sports/sports.jpg');
 const sewing = require('../../public/sewing/sewing.jpg');
 const arts_crafts = require('../../public/arts_crafts/arts_crafts.jpg');
 const books = require('../../public/books/books.jpg');
-const cd = require('../../public/cds/cds.jpg');
 const electronics = require('../../public/electronics/electronics.jpg');
 const garden_outdoor = require('../../public/garden_outdoor/garden_outdoor.jpg');
 const industrial = require('../../public/industrial/industrial.jpg');
@@ -33,7 +32,7 @@ export const dummyData: ContentType[] = [
     {
         key: 0,
         name: 'Beauty',
-        value: beauty,
+        value: beauty
     },
     {
         key: 1,
@@ -43,141 +42,136 @@ export const dummyData: ContentType[] = [
     {
         key: 2,
         name: 'Gourmet Food',
-        value: gourmet_food,
+        value: gourmet_food
     },
     {
         key: 3,
         name: 'Computers',
-        value: computers,
+        value: computers
     },
     {
         key: 4,
         name: 'Cell Phones & Accessories',
-        value: phones,
+        value: phones
     },
     {
         key: 5,
         name: 'Electronics',
-        value: electronics,
+        value: electronics
     },
     {
         key: 6,
         name: 'HouseHold',
-        value: household,
+        value: household
     },
     {
         key: 7,
         name: 'Appliances',
-        value: appliances,
+        value: appliances
     },
     {
         key: 8,
         name: 'Toys',
-        value: toys,
+        value: toys
     },
     {
         key: 9,
         name: 'Tools',
-        value: tools,
+        value: tools
     },
     {
         key: 10,
         name: 'Sports',
-        value: sports,
+        value: sports
     },
     {
         key: 11,
         name: 'Video Games',
-        value: video_games,
+        value: video_games
     },
     {
         key: 12,
         name: 'Office Products',
-        value: office_products,
+        value: office_products
     },
     {
         key: 13,
         name: 'Luggage',
-        value: luggage,
+        value: luggage
     },
     {
         key: 14,
         name: 'Kitchen',
-        value: kitchen,
+        value: kitchen
     },
     {
         key: 15,
         name: 'Dining',
-        value: dining,
+        value: dining
     },
     {
         key: 16,
         name: 'Handmade',
-        value: handmade,
+        value: handmade
     },
     {
         key: 17,
         name: 'Garden & Outdoor',
-        value: garden_outdoor,
+        value: garden_outdoor
     },
     {
         key: 18,
         name: 'Apps and Games',
-        value: apps_games,
+        value: apps_games
     },
     {
         key: 19,
         name: 'Musical Instruments',
-        value: musical_inst,
+        value: musical_inst
     },
     {
         key: 20,
         name: 'Automotive parts',
-        value: automotive,
+        value: automotive
     },
     {
         key: 21,
         name: 'Industrial & Scientific',
-        value: industrial,
+        value: industrial
     },
     {
         key: 22,
         name: 'Cloths',
-        value: cloths,
+        value: cloths
     },
     {
         key: 23,
         name: 'Shoes',
-        value: shoes,
+        value: shoes
     },
     {
         key: 24,
         name: 'Jewelry',
-        value: jewelry,
+        value: jewelry
     },
     {
         key: 25,
         name: 'Arts & Crafts',
-        value: arts_crafts,
+        value: arts_crafts
     },
     {
         key: 26,
         name: 'Sewing',
-        value: sewing,
+        value: sewing
     },
     {
         key: 27,
         name: 'Health',
-        value: health,
-    },
-    {
-        key: 28,
-        name: 'CDs and Vinyls',
-        value: cd,
+        value: health
     },
     {
         key: 29,
         name: 'Books',
-        value: books,
+        value: books
     },
 ];
